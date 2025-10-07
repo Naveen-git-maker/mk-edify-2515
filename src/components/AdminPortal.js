@@ -23,7 +23,7 @@ const AdminPortal = () => (
 
     <div className="course-grid">
       {courses.map((course, index) => (
-        <div className="course-card" key={index}>
+        <div className="course-card" key=(index)>
           <img src={course.image} alt={course.title} className="course-image" />
           <div className="course-title">{course.title}</div>
         </div>
